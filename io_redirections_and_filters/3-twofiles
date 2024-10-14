@@ -1,2 +1,2 @@
 #!/bin/bash
-sort < /etc/passwd | sort < /etc/hosts
+uniq /etc/passwd | uniq /etc/hosts
