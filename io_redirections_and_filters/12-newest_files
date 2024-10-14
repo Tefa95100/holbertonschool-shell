@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --sort=t -l
+ls --sort=t --time=birth -l
