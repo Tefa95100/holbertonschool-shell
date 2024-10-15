@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time=creation --sort=time -l
+ls --time=ctime -lt
