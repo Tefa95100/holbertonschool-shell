@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -cdu < list*
+cat list* | sort -c | uniq -u
