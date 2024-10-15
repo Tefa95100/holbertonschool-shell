@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -du list < list
+sort -d list < list | uniq
