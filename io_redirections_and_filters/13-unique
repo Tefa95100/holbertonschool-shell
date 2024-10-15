@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list* | sort -d | tr -d '.-' | uniq -u 
+cat list* | tr -d '.-' | sort -d | uniq -u 
