@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -d < list* | uniq -u
+sort -d < list* | tr -d '.' '-' | uniq -u
