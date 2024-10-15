@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lct | find -type f -maxdepth 1 | tr -d './' | head
+ls -lt --time=ctime | find -type f -maxdepth 1 | tr -d './' | head -10
