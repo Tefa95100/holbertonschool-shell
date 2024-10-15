@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time=ctime -lt
+ls --time=ctime --sort=t -l
