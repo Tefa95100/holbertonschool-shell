@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time=ctime -lt | head | sort -k 1
+ls -lct | find -type f -maxdepth 1 | tr -d './' | head
