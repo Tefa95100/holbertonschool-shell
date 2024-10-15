@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -du < list*
+sort -cdu < list*
